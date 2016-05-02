@@ -9,5 +9,7 @@ RUN cd /home &&\
     bin/nim c koch &&\
     ./koch boot -d:release
 
+COPY config_nim.cfg /home/Nim/config/
+
 ENV STAGING_DIR=/home/openwrt/openwrt/staging_dir/
 ENV PATH /home/Nim/bin:/home/openwrt/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/:$PATH
