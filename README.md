@@ -18,4 +18,4 @@ Then, you can use nim as normal, when *prefixed* with `ht02nim`, like this:
 
 `ht02nim nim c --cpu:mipsel --os:linux myprog.nim`
 
-Compilation is done inside the container, but the source code (and resulting binary) will be in the current directory.
+Compilation is done inside the *container*, but the source code (and resulting binary) will be in the current directory of the *host* machine.  I find it to be an easy way to cross-compile from many different machines.
