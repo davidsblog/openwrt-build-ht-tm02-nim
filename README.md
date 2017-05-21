@@ -1,4 +1,4 @@
-# WORK IN PROGRESS...
+## Updated to trigger a build for Nim Version 0.17.0.
 
 # openwrt-build-ht-tm02-nim
 Cross compile **nim** code for the HooToo HT-TM02 running OpenWrt. I'm using it like this:
